@@ -12,7 +12,7 @@ function About() {
                     Aenean sollicitudin nulla at nisi ornare, nec suscipit massa eleifend. Morbi tristique
                     justo vel turpis sollicitudin, et tristique velit convallis. In hac habitasse platea
                     dictumst. Phasellus mattis nunc sed orci consequat laoreet. Praesent id nisl nibh.
-                    Curabitur imperdiet ultricies mollis. In hac habitasse platea dictumst.
+                    Curabitur imperdiet ultricies mollis. In hac habitasse platea dictumstt.
                 </p>
             </div>
         </section>

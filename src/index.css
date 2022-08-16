@@ -19,15 +19,16 @@ header {
   padding: 10px 5px;
 }
 
-header h1 a {
+header h1 {
   font-size: 50px;
   padding: 10px 60px;
   background-color: #d6dbd2;
   text-decoration: none;
   color: #2c363f;
+  cursor: pointer;
 }
 
-header h1 a:hover {
+header h1:hover {
   color: #e75a7c;
 }
 

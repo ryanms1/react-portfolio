@@ -15,10 +15,8 @@ function Nav(props) {
 
     return (
         <header>
-            <h1>
-                <a data-testid='link' href='/'>
-                    Ryan
-                </a>
+            <h1 data-testid='link' onClick={() => { setCurrentTab(tabs[0]) }}>
+                Ryan
             </h1>
             <nav>
                 <ul className='tabs'>

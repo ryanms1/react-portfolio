@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Copperplate, Copperplate Gothic Light, fantasy;
+}
+
+body {
+  background-color: #bbc7a4;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d6dbd2;
+  color: #2c363f;
+  padding: 10px 5px;
+}
+
+header h1 a {
+  font-size: 50px;
+  padding: 10px 60px;
+  background-color: #d6dbd2;
+  text-decoration: none;
+  color: #2c363f;
+}
+
+header h1 a:hover {
+  color: #e75a7c;
+}
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0 60px;
+  font-size: 20px;
+  background-color: #d6dbd2;
+}
+
+.tabs li {
+  margin: 5px;
+  cursor: pointer;
+  background-color: #d6dbd2;
+}
+
+.tabs li:hover {
+  color: #e75a7c;
+}
+
+.navActive {
+  color: #e75a7c;
+}
+
+section {
+  margin: 0 auto;
+  max-width: 70%;
+  padding: 50px 30px;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 1rem;
+}
+
+.about div {
+  border: 2px solid #2c363f;
+  font-size: 25px;
+  padding: 0.5rem;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.project {
+  width: 40%;
+  margin: 1rem;
+}
+
+.project {
+  position: relative;
+}
+
+.image {
+  width: 100%;
+  cursor: pointer;
+}
+
+.links {
+  text-decoration: none;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: none;
+}
+
+.links a {
+  font-size: 25px;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.links a:hover {
+  color: #e75a7c;
+}
+
+.project:hover .image {
+  opacity: .40;
+}
+
+.project:hover .links {
+  display: block;
+}
+
+form {
+  width: 40%;
+}
+
+label {
+  padding: .25rem;
+  font-size: 20px;
+}
+
+input {
+  font-size: 1rem;
+  padding: 0.25rem;
+  margin: .25rem;
+  border: 1px solid #2c363f;
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+  width: 50%;
+}
+
+input:focus {
+  border: 1px solid #e75a7c;
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+}
+
+nav a:hover {
+  text-decoration: none;
+}
+
+textarea {
+  width: 600px;
+  height: 120px;
+  border: 3px solid #cccccc;
+  padding: 5px;
+  margin: .25rem;
+  font-size: 20px;
+}
+
+button {
+  background: #e75a7c;
+  border: 0;
+  border-radius: 5px;
+  color: #2c363f;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  padding: 10px 15px;
+}
+
+.resume span {
+  margin: 2rem 1rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 10%;
+  font-size: 35px;
+}
+
+footer a:hover {
+  color: #e75a7c;
+}

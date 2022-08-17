@@ -1,9 +1,11 @@
 import React from 'react'
+import { FaUserAstronaut } from 'react-icons/fa'
 
 function About() {
     return (
         <section className='about'>
             <h2>About me</h2>
+            <span className='moonman'><FaUserAstronaut /></span>
             <div>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex

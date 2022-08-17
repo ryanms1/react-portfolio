@@ -71,6 +71,12 @@ h2 {
   border: 2px solid #2c363f;
   font-size: 25px;
   padding: 0.5rem;
+  margin-top: 1rem;
+}
+
+.moonman {
+  font-size: 60px;
+  margin-bottom: 2rem;
 }
 
 .projects {
@@ -78,6 +84,7 @@ h2 {
   flex-wrap: wrap;
   justify-content: flex-start;
 }
+
 
 .project {
   width: 40%;
@@ -181,6 +188,40 @@ footer {
   font-size: 35px;
 }
 
+footer a {
+  margin-left: 1rem;
+}
+
 footer a:hover {
   color: #e75a7c;
+}
+
+@media screen and (max-width: 1200px) {
+  section {
+    width: 100%;
+  }
+
+  .tabs {
+    width: 90%;
+  }
+
+  .project {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .links {
+    position: relative;
+    display: block;
+  }
+
+  .project:hover .image {
+    opacity: 1;
+  }
+
+  .project {
+    width: 110%;
+  }
 }
